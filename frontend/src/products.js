@@ -7,7 +7,7 @@ const products = [
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     category: 'Electronics',
     price: 89.99,
-    countInStock: 10,
+    countInStock: 0,
     rating: 4.5,
     numReviews: 12,
   },
