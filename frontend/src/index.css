@@ -4,6 +4,11 @@ main {
 
 h3 {
   padding: 1rem 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
 }
 
 .rating span {
