@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import Paginate from '../components/Paginate'
+import SearchBox from '../components/SearchBox'
 import { listProducts } from '../actions/productActions.js'
 import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
@@ -35,6 +36,7 @@ const HomeScreen = ({ match }) => {
         </Link>
       )}
       <h1>メニュー</h1>
+      <Route render={({ history }) => <SearchBox history={history} />} />
       {loading ? (
         <Loader />
       ) : error ? (
