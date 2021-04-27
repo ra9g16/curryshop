@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, Route } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import Product from '../components/Product'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -35,8 +35,16 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
-      <h1>メニュー</h1>
-      <Route render={({ history }) => <SearchBox history={history} />} />
+      <Container>
+        <Row>
+          <Col md={4}>
+            <h1>メニュー</h1>
+          </Col>
+          <Col md={{ span: 4, offset: 4 }}>
+            <Route render={({ history }) => <SearchBox history={history} />} />
+          </Col>
+        </Row>
+      </Container>
       {loading ? (
         <Loader />
       ) : error ? (
