@@ -23,9 +23,6 @@ https://curryshopapp.herokuapp.com/　にてデプロイされています。
 - PayPalでの支払い
 - データベース上での情報管理（MongoDB)
 
-## Note on Issues
-Please do not post issues here that are related to your own code when taking the course. Add those in the Udemy Q/A. If you clone THIS repo and there are issues, then you can submit
-
 ## 開発方法
 
 ### １．ES Modules in Node（バックエンド）
