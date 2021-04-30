@@ -63,7 +63,7 @@ npm run dev
 npm run server
 ```
 
-## ５．ビルド & デプロイ
+### ５．ビルド & デプロイ
 
 ```
 # Create frontend prod build
