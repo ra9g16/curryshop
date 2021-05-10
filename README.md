@@ -1,10 +1,14 @@
 # カレー飲食店の通販サイト
 
-> eCommerce プラットフォーム （MongoDB、Express、React、Node、を使用したウェブアプリ)
+> eCommerce プラットフォーム （MongoDB、Express、React、Node、を使用したウェブアプリケーション)
 
 https://curryshopapp.herokuapp.com/　にてデプロイされています。
 使用された写真はすべて、サンプル画像です。
 すべてのロゴ、名称は自主製作であり、正式なものではありません。
+
+Admin用の機能を見たい場合は、以下のＩＤとパスワードでログインして下さい。
+ログインＩＤ　admin@example.com
+Password 123456
 
 ## 機能
 
